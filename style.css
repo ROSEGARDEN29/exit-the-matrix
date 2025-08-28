@@ -43,10 +43,11 @@ body {
 }
 
 .logo {
-    height: 45px;
+    height: 60px;
     width: auto;
     object-fit: contain;
-    filter: drop-shadow(0 0 10px rgba(255, 69, 0, 0.5));
+    filter: drop-shadow(0 0 15px rgba(255, 69, 0, 0.8)) drop-shadow(0 0 25px rgba(255, 69, 0, 0.4));
+    max-width: 300px;
 }
 
 .main-nav {
@@ -391,7 +392,8 @@ footer::before {
     }
     
 	.logo {
-		height: 35px;
+		height: 45px;
+		max-width: 250px;
 	}
     
     h1 {
